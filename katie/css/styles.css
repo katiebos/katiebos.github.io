@@ -49,14 +49,14 @@ h1 {
     font-variation-settings: "opsz" 75, "SOFT" 50;
 }
 
-h1 i,
-h1 em {
-    color: var(--forest);
-}
-
 .h1-indent {
     display: inline-block;
     padding-left: 1em;
+}
+
+h1 .pop {
+    color: var(--forest);
+    font-weight: 650;
 }
 
 h2 {
