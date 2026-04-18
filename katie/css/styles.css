@@ -49,6 +49,16 @@ h1 {
     font-variation-settings: "opsz" 75, "SOFT" 50;
 }
 
+h1 i,
+h1 em {
+    color: var(--forest);
+}
+
+.h1-indent {
+    display: inline-block;
+    padding-left: 1em;
+}
+
 h2 {
     letter-spacing: -0.015em;
     font-size: clamp(1.8rem, 3.5vw, 2.5rem);
