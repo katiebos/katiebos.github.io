@@ -98,6 +98,12 @@ h3 {
     letter-spacing: -0.01em;
 }
 
+.navbar-logo {
+    height: 2rem;
+    width: auto;
+    display: block;
+}
+
 .navbar .nav-link {
     color: var(--charcoal);
     font-weight: 500;
